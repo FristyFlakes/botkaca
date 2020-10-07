@@ -3,15 +3,15 @@ from bot.locals import Local
 
 LOCAL = Local({
     'WRONG_ROOM' : 'I a\'m not suppose to be here.\nID : <code>{CHAT_ID}</code>',
-    'WELCOME_MESSAGE' : "Hi!\nI'm <b>Botkaca</b>!\nPowered by pyrogram.\nFork: <a href='https://github.com/azamaulanaaa/botkaca'>github.com/azamaulanaaa/botkaca</a>",
+    'WELCOME_MESSAGE' : "Hi!\nI'm <b>Torrent Video Downloader</b>!\nPowered by Pyrogram.\nChannel: <a href='https://t.me/flixbots'>FLIXBOTS</a>",
     'PASS_REQUIRED' : '\n\nUse <code>/{cmd_pass} </code>to enter the password.',
     'LEECH_LIST_MESSAGE_HEADER' : '<b>Leech Status</b>',
     'LEECH_LIST_FORMAT' : 'Name: <code>{name}</code>\nStatus: {status}\nID: <code>{gid}</code>\n\n',
     'ARIA2_CHECKING_LINK' : "Checking...",
-    'ARIA2_DOWNLOAD_STATUS' : "Downloading : <code>{name}</code>\n{block} {percentage}\nSize : {total_size}\nDN : {download_speed} / UP : {upload_speed}\nSeeder : {seeder}\nETA : {eta}\nID : <code>{gid}</code>",
-    'ARIA2_DOWNLOAD_SUCCESS' : 'File downloaded : <code>{name}</code>',
-    'ARIA2_DOWNLOAD_CANCELED' : 'Download canceled : <code>{name}</code>',
-    'ARIA2_DEAD_LINK' : 'Download auto canceled : <code>{name}</code>\nYour Torrent/Link is Dead.',
+    'ARIA2_DOWNLOAD_STATUS' : "<b>○ File Name:</b> <code>{name}</code>\n{block} <b>{percentage}</b>\n<b>○ Size:</b> {total_size}\n<b>○ Speed:</b> <code>{download_speed}</code> 🌝 || <code>{upload_speed}</code>\n<b>○ Seeder:</b> <code>{seeder}</code>\n<b>○ ETA:</b> <code>{eta}</code>\n<b>○ ID:</code> <code>{gid}</code>",
+    'ARIA2_DOWNLOAD_SUCCESS' : '<b>File Downloaded:</b>\n\n<code>{name}</code>',
+    'ARIA2_DOWNLOAD_CANCELED' : '<b>Download Canceled:</b>\n\n<code>{name}</code>',
+    'ARIA2_DEAD_LINK' : '<b>Download Auto Canceled:</b> <code>{name}</code>\n<b>Your Torrent/Link is Dead.</b>',
     'ARIA2_NO_URI' : 'Link is invalid.',
     'UPLOADING_FILE' : 'Uploading : <code>{name}</code>',
     'UPLOADING_PROGRESS' : 'Uploading : <code>{name}</code>\n{block} {percentage}%\nSize : {size}\nUP : {upload_speed}/s\nETA : {eta}',
@@ -42,6 +42,6 @@ LOCAL = Local({
     'COMMAND_UPLOAD_AS_DOC' : 'toggle upload anything as document',
     'COMMAND_UPLOAD_AS_ZIP' : 'toggle upload anything as bundled zipfile',
     'COMMAND_SET_TRACKER' : 'set default tracker, sparated by newline',
-    'BLOCK_EMPTY' : "▱",
-    "BLOCK_FILLED" : "▰"
+    'BLOCK_EMPTY' : "░",
+    "BLOCK_FILLED" : "▓"
 })
