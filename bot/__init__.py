@@ -13,7 +13,7 @@ CONFIG = Config({
     'API_ID' : -1,
     'BOT_TOKEN' : -1,
     'BOT_PASSWORD' : -1,
-    'CHAT_ID' : [],
+    'CHAT_ID' : '',
     'EDIT_SLEEP' : 3,
     'UPLOAD_MAX_SIZE' : 2000 * 1024 * 1024,
     'UPLOAD_AS_DOC' : 0,
@@ -90,7 +90,7 @@ COMMAND = Command({
     'SET_THUMBNAIL' : 'set_thumbnail',
     'RESET_THUMBNAIL' : 'reset_thumbnail',
     'SET_TRACKER' : 'set_tracker'
-})
+}, 'COMMAND_')
 
 # GOAL:
 # set status
@@ -104,5 +104,5 @@ STATUS = Status({
     'UPLOAD_AS_DOC' : bool(int(CONFIG.UPLOAD_AS_DOC)),
     'UPLOAD_AS_ZIP' : bool(int(CONFIG.UPLOAD_AS_ZIP)),
     'DEFAULT_TRACKER' : CONFIG.TORRENT_TRACKER.split(','),
-    'CHAT_ID' : []
+    'CHAT_ID' : CONFIG.CHAT_ID.split(',')
 })
