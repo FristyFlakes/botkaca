@@ -30,6 +30,7 @@ LOCAL = Local({
     'TRACKER_RESET' : 'Default torrent tracker reset.',
     'TRACKER_APPLIED' : 'Default torrent tracker applied.',
     'HELP_MESSAGE_HEADER' : '<b>Bot Command</b>',
+    'NO_HELP_INFO' : '',
     'COMMAND_START' : 'start bot',
     'COMMAND_PASSWORD' : 'enter password that required',
     'COMMAND_HELP' : 'this message',
