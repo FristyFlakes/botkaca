@@ -85,8 +85,8 @@ COMMAND = Command({
     'LEECH_LIST' : 'list',
     'UPLOAD_AS_DOC' : 'upload_as_doc',
     'UPLOAD_AS_ZIP' : 'upload_as_zip',
-    'SET_THUMBNAIL' : 'set_thumbnail',
-    'RESET_THUMBNAIL' : 'reset_thumbnail',
+    'SET_THUMBNAIL' : 'savethumbnail',
+    'RESET_THUMBNAIL' : 'clearthumbnail',
     'SET_TRACKER' : 'set_tracker'
 }, 'COMMAND_')
 
