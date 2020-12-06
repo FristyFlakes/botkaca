@@ -76,7 +76,7 @@ LOCAL = __import__(name = 'bot.locals.' + CONFIG.LOCAL, fromlist = ['LOCAL']).LO
 # GOAL:
 # load Command format
 
-COMMAND = Command({
+COMMAND = Config({
     'START' : 'start',
     'PASSWORD' : 'pass',
     'HELP' : 'help',
